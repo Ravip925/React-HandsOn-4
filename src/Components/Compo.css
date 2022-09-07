@@ -1,0 +1,63 @@
+body{
+    background-image: url("/img1.jpg");
+    background-size: cover;
+}
+.Home{
+    font-size: 5em;
+    margin-top: 100px;
+}
+.parent-div{
+    height: 55px;
+    background-color: rgb(255, 210, 152);
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(63, 13, 110);
+}
+
+table.GeneratedTable {
+    width: 80%;
+    margin-top: 60px;
+    background-color: #fff700;
+    border-collapse: collapse;
+    border-width: 5px;
+    border-color: #00aaff;
+    border-style: groove;
+    color: #000000;
+  }
+  
+  table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 5px;
+    text-align: center;
+    border-color: #00aaff;
+    border-style: groove;
+    padding: 10px;
+  }
+  th{
+    font-size: 1.8em;
+  }
+  td{
+    font-size: 1.2em;
+  }
+  table.GeneratedTable thead {
+    background-color: #4dffd2;
+  }
+  .edit{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .btn-add{
+    width: 17vw;
+    margin-top: 40px;
+    margin-left: 135px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 145, 0);
+    font-weight: bold;
+    cursor: pointer;
+  }
